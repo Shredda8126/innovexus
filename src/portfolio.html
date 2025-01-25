@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovExus - Our Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">InnovExus</span>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-cta">
+                    <a href="contact.html" class="cta-button">Get Started</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="portfolio-page">
+        <section class="portfolio-hero">
+            <div class="portfolio-hero-content">
+                <h1>Our Success Stories</h1>
+                <p>Transforming challenges into innovative solutions across diverse industries</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filter">
+            <div class="filter-buttons">
+                <button class="active" data-filter="all" data-category="all">All Projects</button>
+                <button data-filter="web" data-category="web">Web Development</button>
+                <button data-filter="cloud" data-category="cloud">Cloud Solutions</button>
+                <button data-filter="security" data-category="security">Cybersecurity</button>
+                <button data-filter="consulting" data-category="consulting">IT Consulting</button>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-1.jpg" alt="E-commerce Platform">
+                </div>
+                <div class="portfolio-details">
+                    <h3>E-commerce Platform Transformation</h3>
+                    <p>Developed a scalable e-commerce solution for a retail client, increasing online sales by 150%</p>
+                    <div class="portfolio-tags">
+                        <span>Web Development</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="cloud">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-2.jpg" alt="Cloud Migration">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Enterprise Cloud Migration</h3>
+                    <p>Seamless migration of legacy systems to multi-cloud infrastructure, reducing operational costs by 40%</p>
+                    <div class="portfolio-tags">
+                        <span>Cloud Solutions</span>
+                        <span>AWS</span>
+                        <span>Azure</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="security">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-3.jpg" alt="Cybersecurity Audit">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Financial Sector Cybersecurity</h3>
+                    <p>Comprehensive security audit and implementation of advanced threat detection systems</p>
+                    <div class="portfolio-tags">
+                        <span>Cybersecurity</span>
+                        <span>Threat Detection</span>
+                        <span>Compliance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="consulting">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-4.jpg" alt="Digital Transformation">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Healthcare Digital Transformation</h3>
+                    <p>Strategic consulting to modernize healthcare IT infrastructure and patient management systems</p>
+                    <div class="portfolio-tags">
+                        <span>IT Consulting</span>
+                        <span>Digital Strategy</span>
+                        <span>Healthcare Tech</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-5.jpg" alt="Mobile App">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Mobile App Development</h3>
+                    <p>Created a cross-platform mobile application for a startup, achieving 100k+ downloads</p>
+                    <div class="portfolio-tags">
+                        <span>Web Development</span>
+                        <span>Mobile App</span>
+                        <span>Flutter</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="cloud">
+                <div class="portfolio-image">
+                    <img src="images/portfolio-6.jpg" alt="IoT Solution">
+                </div>
+                <div class="portfolio-details">
+                    <h3>IoT Cloud Platform</h3>
+                    <p>Developed a scalable IoT cloud platform for smart manufacturing solutions</p>
+                    <div class="portfolio-tags">
+                        <span>Cloud Solutions</span>
+                        <span>IoT</span>
+                        <span>Serverless</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-cta">
+            <div class="portfolio-cta-content">
+                <h2>Let's Create Something Extraordinary</h2>
+                <p>Interested in transforming your business through technology? We're ready to help.</p>
+                <a href="contact.html" class="cta-button">Start Your Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content same as other pages -->
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>InnovExus</h3>
+                <p>Transforming businesses through innovative technology solutions. We empower organizations with cutting-edge IT services that drive digital transformation and competitive advantage.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Innovation Drive, Silicon Valley, CA 94000</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@innovexus.com</p>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Software Development</li>
+                    <li>Cloud Solutions</li>
+                    <li>Cybersecurity</li>
+                    <li>Enterprise Solutions</li>
+                    <li>Web Services</li>
+                    <li>Technical Support</li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest tech insights and company updates.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2025 InnovExus Technologies. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
