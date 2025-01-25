@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.innovexus.com/sitemap.xml
+
+# Directories to exclude
+Disallow: /admin/
+Disallow: /private/
+
+# Specific file exclusions
+Disallow: /js/
+Disallow: /css/
+
+# Crawl-delay to be respectful of server resources
+Crawl-delay: 10
